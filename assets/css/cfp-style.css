@@ -132,7 +132,7 @@ td:hover
 }
 .social-f a i {
   position: relative;
-  top: 31%;
+  top: 25%;
 
 }
 .icons:hover {
@@ -444,3 +444,55 @@ body.mobile-nav-active #mobile-nav {
 body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
+
+
+/*li {
+  font-family: Georgia, "Times New Roman", Times, serif; 
+  line-height: 1.6;
+  font-size: 20px;
+}*/
+
+
+.wrapper {
+  border: 2px solid #ccc;
+  max-width: 900px;
+  margin: auto;
+  padding: 30px 50px;
+  /*background-color: #F3D7CD;*/
+}
+.wrapper ol {
+  margin: 0 0 1em 0;
+  padding: 0;
+  counter-reset: li;
+  list-style: none;
+}
+.wrapper li {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  padding-left: 50px;
+  min-height: 35px;
+  margin: 10px 0px;
+  padding-top: 4px;
+  color: #000;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
+}
+.wrapper li:before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 1px solid #fff;
+  background: linear-gradient(to right, #ffca08 0%, #f70067 100%);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: #000;
+  content: counter(li);
+  counter-increment: li;
+}
+
