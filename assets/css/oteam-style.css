@@ -312,6 +312,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 footer {
   background-color: #060c22;
 }
+
 .contact {
   margin: 0;
   padding: 20px 0 0 0;
@@ -500,6 +501,12 @@ h2 {
 }
 .box-desc {
   position: relative;
+}
+.box-desc i:hover{
+  color: #fff;
+}
+.box-desc i{
+  color: #000;
 }
 
 .box:hover .image-wrappers {
