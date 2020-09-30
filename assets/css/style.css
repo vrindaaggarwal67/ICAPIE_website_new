@@ -841,8 +841,8 @@ body.mobile-nav-active #mobile-nav-toggle {
      padding-top: 70px;
      padding-bottom: 70px;
      background: #00c6ff;  /* fallback for old browsers */
-     background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
-     background: linear-gradient(to right, #0072ff, #00c6ff); 
+     background: -webkit-linear-gradient(to right,  rgba(13, 20, 41, 0.8),  rgba(13, 20, 41, 0.8));
+     background: linear-gradient(to right,  rgba(13, 20, 41, 0.8),  rgba(13, 20, 41, 0.8)); 
 }
 
 .count-title {
@@ -1275,6 +1275,215 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 4px;
   background: #fff;
   z-index: 1;
+}
+
+/*--------------------------------------------------------------
+# CAPIER Section
+--------------------------------------------------------------*/
+#capier {
+  width: 100%;
+  height: 50vh;
+  background: url(../img/57e5dd4a4c56a414f6da8c7dda793678153bdee757596c48702672dd9e49c35dbe_1280.jpg) top center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  #capier {
+    background-attachment: fixed;
+  }
+}
+
+#capier:before {
+  content: "";
+  background: rgba(6, 12, 34, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#capier .capier-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 40px;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 15px;
+}
+
+@media (max-width: 991px) {
+  #capier .capier-container {
+    top: 50px;
+  }
+}
+
+#capier h1 {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 56px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#capier h1 span {
+  color: #ff5e07;
+}
+
+@media (max-width: 991px) {
+  #capier h1 {
+    font-size: 34px;
+  }
+}
+#capier h2 {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#capier h2 span {
+  color: #ff5e07;
+}
+
+@media (max-width: 991px) {
+  #capier h2 {
+    /* font-size: 34px; */
+    font-weight: 500;
+  }
+}
+#capier h3 {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  /* font-size: 56px; */
+  font-style: italic;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+#capier h3 span {
+  color: #ff5e07;
+}
+
+@media (max-width: 991px) {
+  #capier h3 {
+    /* font-size: 34px; */
+    font-weight: 300;
+  }
+}
+
+#capier p {
+  color: #ebebeb;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+@media (max-width: 991px) {
+  #capier p {
+    font-size: 16px;
+  }
+}
+
+#capier .play-btn {
+  width: 94px;
+  height: 94px;
+  background: radial-gradient(#ff5e07 50%, rgba(101, 111, 150, 0.15) 52%);
+  border-radius: 50%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+#capier .play-btn::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 100;
+  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+#capier .play-btn:before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation: pulsate-btn 2s;
+  animation: pulsate-btn 2s;
+  -webkit-animation-direction: forwards;
+  animation-direction: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: steps;
+  animation-timing-function: steps;
+  opacity: 1;
+  border-radius: 50%;
+  border: 2px solid rgba(163, 163, 163, 0.4);
+  top: -15%;
+  left: -15%;
+  background: rgba(198, 16, 0, 0);
+}
+
+#capier .play-btn:hover::after {
+  border-left: 15px solid #ff5e07;
+  transform: scale(20);
+}
+
+#capier .play-btn:hover::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border: none;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 200;
+  -webkit-animation: none;
+  animation: none;
+  border-radius: 0;
+}
+
+
+
+@-webkit-keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+@keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
 }
 
 /*--------------------------------------------------------------
