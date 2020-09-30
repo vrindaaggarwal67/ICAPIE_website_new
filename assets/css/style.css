@@ -714,7 +714,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
   position: relative;
   color: #fff;
-  padding: 60px 0 40px 0;
+  padding: 40px 0 70px 40px;
+  
 }
 
 @media (min-width: 1024px) {
@@ -768,6 +769,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid;
+  position: fixed;
+  align-self: center;
 }
 
 #about .about-btn:hover {
