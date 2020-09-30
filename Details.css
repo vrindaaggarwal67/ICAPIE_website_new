@@ -548,7 +548,7 @@
   right: 0;
   transition: all 0.5s;
   z-index: 997;
-  background-color: #060c22;
+  background-color: rgba(6, 12, 34, 0.5);
 }
 
 @media (max-width: 991px) {
