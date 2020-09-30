@@ -597,6 +597,42 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 34px;
   }
 }
+#intro h2 {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#intro h2 span {
+  color: #ff5e07;
+}
+
+@media (max-width: 991px) {
+  #intro h2 {
+    /* font-size: 34px; */
+    font-weight: 500;
+  }
+}
+#intro h3 {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  /* font-size: 56px; */
+  font-style: italic;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+#intro h3 span {
+  color: #ff5e07;
+}
+
+@media (max-width: 991px) {
+  #intro h3 {
+    /* font-size: 34px; */
+    font-weight: 300;
+  }
+}
 
 #intro p {
   color: #ebebeb;
@@ -714,7 +750,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
   position: relative;
   color: #fff;
-  padding: 40px 0 70px 40px;
+  align-self: center;
+  padding: 40px 40px 80px 40px;
   
 }
 
@@ -723,11 +760,32 @@ body.mobile-nav-active #mobile-nav-toggle {
     background-attachment: fixed;
   }
 }
+#about .about-container {
+  position: relative;
+  bottom: 0;
+  left: 10px;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0px;
+}
+
+@media (max-width: 991px) {
+  #about .about-container {
+    top: 10px;
+  }
+}
+
 
 #about:before {
   content: "";
   background: rgba(13, 20, 41, 0.8);
   position: absolute;
+  align-self: center;
   bottom: 0;
   top: 0;
   left: 0;
@@ -746,6 +804,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
+  text-align: center;
   color: #fff;
 }
 
@@ -874,9 +933,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 10px;
 } 
 
+
 /*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
+
 #schedule {
   padding: 60px 0 60px 0;
 }
