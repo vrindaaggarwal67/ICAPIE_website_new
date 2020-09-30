@@ -681,27 +681,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 0;
 }
 
-#intro .about-btn {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 32px;
-  border-radius: 50px;
-  transition: 0.5s;
-  line-height: 1;
-  margin: 10px;
-  color: #fff;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
-  border: 2px solid;
-}
 
-#intro .about-btn:hover {
-  background: #ff5e07;
-  color: #fff;
-}
 
 @-webkit-keyframes pulsate-btn {
   0% {
@@ -771,6 +751,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about p {
   font-size: 14px;
   margin-bottom: 20px;
+  color: #fff;
+}
+#about .about-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid;
+}
+
+#about .about-btn:hover {
+  background: #ff5e07;
   color: #fff;
 }
 
