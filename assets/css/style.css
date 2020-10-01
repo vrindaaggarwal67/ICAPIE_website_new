@@ -757,7 +757,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   color: #fff;
   align-self: center;
-  padding: 40px 40px 80px 40px;
+  padding: 40px 40px 40px 40px;
   
 }
 
@@ -768,10 +768,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #about .about-container {
   position: relative;
-  bottom: 0;
+  /* bottom: 0;
   left: 10px;
   top: 10px;
-  right: 10px;
+  right: 10px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -834,8 +834,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid;
-  position: fixed;
-  align-self: center;
+  
 }
 
 #about .about-btn:hover {
