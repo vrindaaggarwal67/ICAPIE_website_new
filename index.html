@@ -1508,7 +1508,7 @@
     </section> End Hotels Section -->
 
       <!-- ======= Gallery Section ======= -->
-      <section id="gallery">
+      <section id="gallery" style="left: 50%;">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
             <h2>Gallery</h2>
@@ -1575,6 +1575,11 @@
             data-gall="gallery-carousel"
             ><img src="assets/img/glimpses/g9.jpg" alt=""
           /></a>
+        </div>
+      </section>
+      <section id ="glimpses"  >
+        <div style="align-content: center;">
+          <a href="Glimpses.html" class="glimpse-btn scrollto" style="left: 42%;">Glimpses of Previous ICAPIE</a>
         </div>
       </section>
       <!-- End Gallery Section -->
@@ -2053,7 +2058,7 @@
 
           <div class="form">
             <form
-              action="forms/contact.php"
+              action="php-email-form.php"
               method="post"
               role="form"
               class="php-email-form"
@@ -2092,7 +2097,7 @@
                   id="subject"
                   placeholder="Subject"
                   data-rule="minlen:4"
-                  data-msg="Please enter at least 8 chars of subject"
+                  data-msg="Please enter at least 4 chars of subject"
                 />
                 <div class="validate"></div>
               </div>
@@ -2107,13 +2112,13 @@
                 ></textarea>
                 <div class="validate"></div>
               </div>
-              <div class="mb-3">
+              <!-- <div class="mb-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">
                   Your message has been sent. Thank you!
                 </div>
-              </div>
+              </div> -->
               <div class="text-center">
                 <button type="submit">Send Message</button>
               </div>
