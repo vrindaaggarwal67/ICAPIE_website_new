@@ -93,13 +93,13 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #e0072f;
+  background: #ff5e07;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #e0072f;
+  background:#ff5e07;
   color: #fff;
 }
 

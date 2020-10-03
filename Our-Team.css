@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 .u-section-1 {
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    url("./assets/img/glimpses/g7.jpg");
+    url("images/55e8d3454d51b108f5d084609629317e113fdce15b4c704f752f7adc904fc15e_1280.jpg");
   background-position: 50% 50%;
 }
 .u-section-1 .u-sheet-1 {
@@ -1097,7 +1096,7 @@
 }
 .u-section-3 {
   background-image: none;
-  min-height: 859px;
+  min-height: 50px;
 }
 .u-section-3 .u-shape-1 {
   width: calc(((100% - 1140px) / 2));
@@ -1107,7 +1106,7 @@
   margin-bottom: 0;
 }
 .u-section-3 .u-list-1 {
-  min-height: 683px;
+  min-height: 100px;
   grid-template-columns: 50% 50%;
   grid-template-rows: auto auto;
   width: 1140px;
