@@ -16559,13 +16559,13 @@ a.pswp__share--download:hover {
 }
 .u-table table {
   min-height: 100px;
-  width: 100%;
+  width: 80%;
   border-collapse: collapse;
-  text-align: left;
+  text-align: center;
 }
 .u-table th,
 .u-table td {
-  padding: 10px;
+  padding: 5px;
   font-weight: inherit;
   position: relative;
 }
@@ -17851,7 +17851,7 @@ h6 {
   font-family: 'Open Sans',sans-serif !important;
 }
 .u-custom-font.u-heading-font {
-  font-family: Roboto,sans-serif !important;
+  font-family: 'Open Sans',sans-serif !important;
 }
 /*end-variables font*/
 /*begin-variables colors*/
@@ -29993,7 +29993,7 @@ a.u-link.u-text-hover-grey-90:hover {
     h1.u-title
     {
         font-weight: 400;
-        font-size: 4.5rem;
+        font-size: 50px;
         line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -30001,7 +30001,7 @@ a.u-link.u-text-hover-grey-90:hover {
     h2.u-subtitle
     {
         font-weight: 400;
-        font-size: 2.25rem;
+        font-size: 30px;
         line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -30009,7 +30009,7 @@ a.u-link.u-text-hover-grey-90:hover {
     h1:not(.u-title)
     {
         font-weight: 400;
-        font-size: 3rem;
+        font-size: 30px;
         line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -30017,7 +30017,7 @@ a.u-link.u-text-hover-grey-90:hover {
     h2:not(.u-subtitle)
     {
         font-weight: 400;
-        font-size: 2.25rem;
+        font-size: 30px;
         line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -30025,7 +30025,7 @@ a.u-link.u-text-hover-grey-90:hover {
     h3
     {
         font-weight: 400;
-        font-size: 1.875rem;
+        font-size: 30px;
         line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -30033,7 +30033,7 @@ a.u-link.u-text-hover-grey-90:hover {
     h4
     {
         font-weight: 400;
-        font-size: 1.5rem;
+        font-size: 30px;
         line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -30041,7 +30041,7 @@ a.u-link.u-text-hover-grey-90:hover {
     h5
     {
         font-weight: 400;
-        font-size: 1.25rem;
+        font-size: 30px;
         line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -30049,7 +30049,7 @@ a.u-link.u-text-hover-grey-90:hover {
     h6
     {
         font-weight: 400;
-        font-size: 1.125rem;
+        font-size: 30px;
         line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
