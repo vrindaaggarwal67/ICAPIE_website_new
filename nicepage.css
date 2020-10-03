@@ -7584,21 +7584,21 @@ section.u-image,
   }
 }
 .u-expanded-height {
-  position: absolute !important;
-  height: 100% !important;
+  /*position: absolute !important;
+  height: 100% !important;*/
   top: 0 !important;
 }
-@media (min-width: 1200px) {
+@media () {
   .u-expanded-height-xl {
     position: absolute !important;
-    height: 100% !important;
+    /*height: 100% !important;*/
     top: 0 !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .u-expanded-height-lg {
     position: absolute !important;
-    height: 100% !important;
+    /*height: 100% !important;*/
     top: 0 !important;
   }
 }
