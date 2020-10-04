@@ -5,7 +5,7 @@
 
     $email_from = 'vrindaaggarwal67@gmail.com';
 
-    $email_subject = "New from Submission";
+    $email_subject = "New formm Submission";
 
     $email_body = "User Name: $name.\n"."User Email: $visitor_email.\n"."User Message: $message.\n";
 
