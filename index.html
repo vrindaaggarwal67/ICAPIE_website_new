@@ -646,7 +646,7 @@
           <div class="row">
             <div>
               <h2>About ICAPIE DTU</h2>
-              <p>
+              <p style="font-size: 20px; padding-right: 25px; padding-left: 25px;">
                 The International Conference on Advanced Production and
                 Industrial Engineering (ICAPIE) is aimed to promote synergetic
                 partnership between academia and industry and also to show case
@@ -698,19 +698,19 @@
       </section>
       <!-- End About Section -->
       <!-- ======= About CAPIER Section ======= -->
-      <section id="about-capier">
+      <section id="about">
         <div class="about-container" data-aos="fade-up">
           <div class="row">
             <div>
               <h2>About CAPIER DTU</h2>
-              <p>
+              <p style="font-size: 20px; padding-right: 25px; padding-left: 25px;">
                 CAPIER, Centre for Advanced Production and Industrial Engineering Research was established on 8 April 2015. We know CAPIER for organizing expert lectures, workshops, and industry-institute interactions. CAPIER invites B.Tech. & M.Tech. students for an internship during summer and winter holidays. CAPIER also organizes a visit to industries for motivating the students towards advanced technology. CAPIER holds a name in the institution for supervising many excellent projects for B.Tech., M.Tech. and at the level of Ph.D. CAPIER also support IJAPIE, an international journal in production and industrial engineering. CAPIER started organizing an international conference in the name of ICAPIE. The first international conference ICAPIE-2016 was a magnificent success. The second international conference ICAPIE ’17 was in partnership with many institutions and made a name of its own. The proceedings of the conference were greatly appreciated. CAPIER also supports faculty development programs and staff development programs. AIM-2015 and SDTSMT-2015 were successful with the sponsorship of Teqip-II. It marked AMOM 2017 a two weeks program as best FDP by the participants. Industry Institution Interactions were held regularly. It organized a talk on ROBO and practice of Robotics and Automation. CAPIER at Delhi Technological University is getting an excellent name and growing with experienced faculty and budding researchers.
               </p>
             </div>
           
           </div>
           <div style="align-content: center;">
-            <a href="Call-For-Papers.html" class="about-btn scrollto" style="left: 40%;" target="_blank">Call for Papers</a>
+            <a href="details.html" class="about-btn scrollto" style="left: 40%;" target="_blank">Call for Papers</a>
           </div>
         </div>
       </section>
@@ -821,42 +821,26 @@
     </section> End Speakers Section -->
 
               
-              <section id="statistic" class="statistic-section one-page-section">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-xs-12 col-md-3">
-                    <div class="counter">
-                        <i class="fa fa-coffee fa-2x stats-icon"></i>
-                        <h2 class="timer count-title count-number">999</h2>
-                        <div class="stats-line-black"></div>
-                        <p class="stats-text">Research Paper Published</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-3">
-                    <div class="counter">
-                        <i class="fa fa-code fa-2x stats-icon"></i>
-                        <h2 class="timer count-title count-number">6
-                        </h2>
-                        <div class="stats-line-black"></div>
-                        <p class="stats-text">Conferences</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-3">
-                    <div class="counter">
-                        <i class="fa fa-clock-o fa-2x stats-icon"></i>
-                        <h2 class="timer count-title count-number">6</h2>
-                        <div class="stats-line-black"></div>
-                        <p class="stats-text">Journals</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-3">
-                  <div class="counter">
-                      <i class="fa fa-clock-o fa-2x stats-icon"></i>
-                      <h2 class="timer count-title count-number">6</h2>
-                      <div class="stats-line-black"></div>
-                      <p class="stats-text"></p>
-                  </div>
-              </div>
+              <section style=" margin-bottom: 30px; background-color: #FABAA2;">
+        <div class="container" style="padding-top: 80px; padding-bottom: 50px;">
+  <div class="row">
+    <div class="col-md-4" >
+      <h1><span class="counter">999</span></h1>
+      <h3>Research Paper Published</h3>
+      <i class="fa fa-desktop"></i>
+    </div> 
+    <div class="col-md-4">
+      <h1><span class="counter">6</span></h1>
+      <h3>Conferences</h3>
+      <i class="fa fa-users"></i>
+    </div>
+    <div class="col-md-4">
+      <h1><span class="counter">6</span></h1>
+      <h3>Journals</h3>
+      <i class="fa fa-coffee"></i>
+    </div>
+  </div>
+</div>
                 <!-- <div class="col-xs-12 col-md-3">
                     <div class="counter">
                         <i class="fa fa-laptop fa-2x stats-icon"></i>
@@ -870,16 +854,51 @@
                     </div>
                 </div> -->
                  <!-- hitwebcounter Code START -->                                           
-            </div>
-        </div>
+            
     </section>
     <script>
-      $(".count-number").counterUp({
-       delay: 10,
-       time: 3000,
-       offset: 100,
-      });
+      $('.counter').counterUp({
+  delay: 10,
+  time: 4000
+});
+$('.counter').addClass('animated fadeInDownBig');
+$('h3').addClass('animated fadeIn');
     </script>
+
+    <style>
+
+.col-md-4 {
+  text-align: center;
+  padding-bottom: 50px;
+  border-right: 1px dashed black;
+}
+
+.col-md-4:last-child {
+  border-right: 0px solid black;
+}
+
+.counter {
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+
+i {
+  font-size: 20px !Important;
+}
+
+@media (max-width: 991px) {
+  .col-md-4 {
+    border-right: 0px dashed black;
+    border-bottom: 1px dashed black;
+    width: 50%;
+    margin: auto auto;
+  }
+  
+  .col-md-4:last-child {
+    border-bottom: 0px dashed black;
+  }
+}
+    </style>
 
 
 

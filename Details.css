@@ -115,7 +115,22 @@
     font-size: 1.5rem;
   }
 }*/
+.greeting{
+  opacity: 0.8;
 
+}
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+div.transbox {
+  margin-right: 65px;
+  margin-left: 65px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.75;
+}
 .message{
   top: 60px;
 
@@ -159,6 +174,7 @@
 .u-section-3 .u-table-1 {
   margin-top: 20px;
   margin-bottom: 54px;
+  margin-left: 100px;
 }
 .u-block-8592-4 {
   font-size: 1.875rem;
