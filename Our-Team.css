@@ -955,7 +955,7 @@
   #header {
     background: rgba(6, 12, 34, 0.98);
     height: 70px;
-    padding: 15px 0;
+    padding: 2px 0;
     transition: all 0.5s;
   }
 }
@@ -970,14 +970,14 @@
 #header.header-fixed {
   background: rgba(6, 12, 34, 0.98);
   height: 70px;
-  padding: 15px 0;
+  padding: 2px 0;
   transition: all 0.5s;
 }
 
 #header #logo h1 {
   font-size: 36px;
   margin: 0;
-  padding: 6px 0;
+  padding: 2px 0;
   line-height: 1;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -995,9 +995,9 @@
   }*/
 
 #header #logo img {
-  padding: -6px 0;
+  padding: 2px 0;
   margin: 0;
-  max-height: 55px;
+  max-height: 60px;
 }
 
 /* ----------------------- NAV MENU ------------------*/

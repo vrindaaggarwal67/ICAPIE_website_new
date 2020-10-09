@@ -614,9 +614,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #intro h3 {
   color: #fff;
-  font-family: "Raleway", sans-serif;
+  font-family: "Proxima Nova";
   /* font-size: 56px; */
-  font-style: italic;
+  /* font-style: italic; */
   font-weight: 400;
   text-transform: uppercase;
 }
