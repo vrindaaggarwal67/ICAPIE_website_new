@@ -141,7 +141,7 @@ h6 {
   --------------------------------------------------------------*/
 #header {
   height: 75px;
-  padding: 15px 20px 10px 0;
+  padding: 8px 20px 10px 0;
   position: fixed;
   left: 0;
   top: 0;
@@ -155,7 +155,7 @@ h6 {
   #header {
     background: rgba(6, 12, 34, 0.98);
     height: 70px;
-    padding: 15px 0;
+    padding: 2px 0;
     transition: all 0.5s;
   }
 }
@@ -170,14 +170,14 @@ h6 {
 #header.header-fixed {
   background: rgba(6, 12, 34, 0.98);
   height: 70px;
-  padding: 15px 0;
+  padding: 2px 0;
   transition: all 0.5s;
 }
 
 #header #logo h1 {
   font-size: 36px;
   margin: 0;
-  padding: 6px 0;
+  padding: 2px 0;
   line-height: 1;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -196,7 +196,7 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 70px;
 }
 
 /* ----------------------- NAV MENU ------------------*/
@@ -584,7 +584,7 @@ h1 {
       rgba(112, 107, 107, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    url("https://images.app.goo.gl/wQfwdES3ax6RgC3MA");
+    url("../img/meet-the-team-title-background-v2.jpg");
   background-position: 50% 50%;
 }
 .u-section-1 .u-sheet-1 {
