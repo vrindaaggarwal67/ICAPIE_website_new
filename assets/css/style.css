@@ -92,7 +92,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background:#ff5e07;
+  background: #ff5e07;
   color: #fff;
 }
 
@@ -2995,4 +2995,20 @@ body {
   .testim .cont div p {
     line-height: 25px;
   }
+}
+@-webkit-keyframes blinker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.blink {
+  text-decoration: blink;
+  -webkit-animation-name: blinker;
+  -webkit-animation-duration: 0.6s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate;
 }
