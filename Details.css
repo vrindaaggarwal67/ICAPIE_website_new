@@ -120,16 +120,16 @@
 
 }
 div.transbox p {
-  margin: 5%;
+  margin: 7%;
   font-weight: bold;
   color: #000000;
 }
 div.transbox {
-  margin-right: 65px;
-  margin-left: 65px;
+  margin-right: 8%;
+  /* margin-left: 65px; */
   background-color: #ffffff;
   border: 1px solid black;
-  opacity: 0.75;
+  opacity: 0.70;
 }
 .message{
   top: 60px;

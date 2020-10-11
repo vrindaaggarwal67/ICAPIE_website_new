@@ -140,8 +140,8 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 90px;
-  padding: 25px 0;
+  height: 100px;
+  padding: 20px 0;
   position: fixed;
   left: 0;
   top: 0;
@@ -153,7 +153,7 @@ h6 {
 @media (max-width: 991px) {
   #header {
     background: rgba(6, 12, 34, 0.98);
-    height: 70px;
+    height: 80px;
     padding: 1px 0;
     transition: all 0.5s;
   }
@@ -196,7 +196,7 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 63px;
+  max-height: 70px;
 }
 
 /*--------------------------------------------------------------
