@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-.u-section-1 {background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/55e8d3454d51b108f5d084609629317e113fdce15b4c704f752f7adc904fc15e_1280.jpg"); background-position: 50% 50%}
-=======
 .u-section-1 {background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("assets/img/OurTeam.jpg"); background-position: 50% 50%}
->>>>>>> 7b5ba3dfc37f1ed045f7f58f396bd255534a3e92
+
 .u-section-1 .u-sheet-1 {min-height: 399px}
 .u-section-1 .u-text-1 {margin: 60px auto} 
 
@@ -14,7 +11,7 @@
 
 @media (max-width: 575px){ .u-section-1 .u-sheet-1 {min-height: 287px} }.u-section-2 .u-sheet-1 {min-height: 50vw}
 .u-section-2 .u-layout-wrap-1 {margin-top: 60px; margin-bottom: 60px}
-.u-section-2 .u-image-1 {min-height: 560px; background-image: url("ICAPIE_resized_pic/583x626.jpg"); background-position: 50% 50%}
+.u-section-2 .u-image-1 {min-height: 583px; background-image: url("Icapie_resized_pic/583x626.jpg"); background-position: 50% 50%;}
 .u-section-2 .u-container-layout-1 {padding: 30px}
 .u-section-2 .u-layout-cell-2 {min-height: 560px}
 .u-section-2 .u-container-layout-2 {padding: 30px}
@@ -412,7 +409,7 @@
 .u-section-6 .u-text-11 {margin-left: auto; margin-right: auto; font-size: 1.25rem}
 .u-section-6 .u-social-icons-4 {margin-left: auto} }.u-section-7 .u-sheet-1 {min-height: 959px}
 .u-section-7 .u-layout-wrap-1 {margin: 40px auto 60px 0}
-.u-section-7 .u-image-1 {background-image: url("images/OTSOUE0g1.jpg"); background-position: 50% 50%; min-height: 398px}
+.u-section-7 .u-image-1 {background-image: url("Icapie_resized_pic/Rani MedhaShree.jpg"); background-position: 50% 50%; min-height: 398px}
 .u-section-7 .u-layout-cell-2 {min-height: 398px; background-image: none}
 .u-section-7 .u-container-layout-2 {padding: 30px}
 .u-section-7 .u-text-1 {text-transform: uppercase; font-size: 1.5rem; margin: 60px auto 0}
@@ -421,7 +418,7 @@
 .u-section-7 .u-social-icons-1 {white-space: nowrap; height: 27px; min-height: 16px; width: 64px; min-width: 42px; margin: 20px auto 0}
 .u-section-7 .u-icon-1 {height: 100%}
 .u-section-7 .u-icon-2 {height: 100%}
-.u-section-7 .u-image-2 {min-height: 398px; background-image: url("images/111.jpg"); background-position: 50% 50%}
+.u-section-7 .u-image-2 {min-height: 398px; background-image: url("Icapie_resized_pic/Kartikeya Bector.jpg"); background-position: 50% 50%}
 .u-section-7 .u-container-layout-3 {padding: 30px}
 .u-section-7 .u-layout-cell-4 {min-height: 429px; background-image: none}
 .u-section-7 .u-container-layout-4 {padding: 30px}
@@ -431,7 +428,7 @@
 .u-section-7 .u-social-icons-2 {white-space: nowrap; height: 27px; min-height: 16px; width: 64px; min-width: 42px; margin: 20px auto 0}
 .u-section-7 .u-icon-3 {height: 100%}
 .u-section-7 .u-icon-4 {height: 100%}
-.u-section-7 .u-image-3 {min-height: 429px; background-image: url("images/de1.jpg"); background-position: 50% 50%}
+.u-section-7 .u-image-3 {min-height: 429px; background-image: url("Icapie_resized_pic/Sahil Bansal.jpg"); background-position: 50% 50%}
 .u-section-7 .u-container-layout-5 {padding: 30px}
 .u-section-7 .u-layout-cell-6 {min-height: 429px; background-image: none}
 .u-section-7 .u-container-layout-6 {padding: 30px}
