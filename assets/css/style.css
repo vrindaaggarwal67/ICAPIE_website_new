@@ -1889,6 +1889,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
   font-weight: 600;
   padding-right: 20px;
+  text-align: left;
 }
 
 #faq #faq-list i {
