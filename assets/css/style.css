@@ -1072,7 +1072,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #112363;
   font-size: 15px;
   margin-bottom: 10px;
-} 
+}
 
 
 /*--------------------------------------------------------------
@@ -3127,7 +3127,7 @@ body {
 }
 .card {
   display: inline-block;
-  margin-top: calc((100vh - 506px) / 2);
+  /* margin-top: calc((100vh - 506px) / 2); */
   margin-right: 15px;
   margin-left: 15px;
   top: 50%;
