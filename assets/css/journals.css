@@ -498,7 +498,8 @@ h1 {
     min-height: 189px;
   }
 }
-* Block */ .card {
+/* Block */ 
+.card {
   width: 275px;
 
   font-family: "Playfair Display", serif;
