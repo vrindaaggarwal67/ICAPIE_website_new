@@ -1,130 +1,49 @@
-/*--------------------------------------------------------------
-# Schedule Section
---------------------------------------------------------------*/
-
-#schedule {
-  padding: 60px 0 60px 0;
+/* Sections Header
+--------------------------------*/
+.section-header {
+  margin-bottom: 60px;
+  position: relative;
+  padding-bottom: 20px;
 }
 
-#schedule .nav-tabs {
-  text-align: center;
-  margin: auto;
+.section-header::before {
+  content: "";
+  position: absolute;
   display: block;
-  border-bottom: 0;
-  margin-bottom: 30px;
-}
-
-#schedule .nav-tabs li {
-  display: inline-block;
-  margin-bottom: 0;
-}
-
-#schedule .nav-tabs a {
-  border: none;
-  border-radius: 50px;
-  font-weight: 600;
-  background-color: #0e1b4d;
-  color: #fff;
-  padding: 10px 100px;
-}
-
-@media (max-width: 991px) {
-  #schedule .nav-tabs a {
-    padding: 8px 60px;
-  }
-}
-
-@media (max-width: 767px) {
-  #schedule .nav-tabs a {
-    padding: 8px 50px;
-  }
-}
-
-@media (max-width: 480px) {
-  #schedule .nav-tabs a {
-    padding: 8px 30px;
-  }
-}
-
-#schedule .nav-tabs a.active {
-  background-color: #ff5e07;
-  color: #fff;
-}
-
-#schedule .sub-heading {
-  text-align: center;
-  font-size: 18px;
-  font-style: italic;
-  margin: 0 auto 30px auto;
-}
-
-@media (min-width: 991px) {
-  #schedule .sub-heading {
-    width: 75%;
-  }
-}
-
-#schedule .tab-pane {
-  transition: ease-in-out 0.2s;
-}
-
-#schedule .schedule-item {
-  border-bottom: 1px solid #cad4f6;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  transition: background-color ease-in-out 0.3s;
-}
-
-#schedule .schedule-item:hover {
-  background-color: #fff;
-}
-
-#schedule .schedule-item time {
-  padding-bottom: 5px;
-  display: inline-block;
-}
-
-#schedule .schedule-item .speaker {
   width: 60px;
-  height: 60px;
-  overflow: hidden;
-  border-radius: 50%;
-  float: left;
-  margin: 0 10px 10px 0;
+  height: 5px;
+  background: #ff5e07;
+  bottom: 0;
+  left: calc(50% - 25px);
 }
 
-#schedule .schedule-item .speaker img {
-  height: 100%;
-  transform: translateX(-50%);
-  margin-left: 50%;
-  transition: all ease-in-out 0.3s;
+.section-header h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
-#schedule .schedule-item h4 {
+.section-header p {
+  text-align: center;
+  padding: 0;
+  margin: 0;
   font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 5px;
+  font-weight: 500;
+  color: #9195a2;
 }
 
-#schedule .schedule-item h4 span {
-  font-style: italic;
-  color: #19328e;
-  font-weight: normal;
-  font-size: 16px;
-}
-
-#schedule .schedule-item p {
-  font-style: italic;
-  color: #152b79;
-  margin-bottom: 0;
+.section-with-bg {
+  background-color: #f6f7fd;
 }
 
 /*--------------------------------------------------------------
-  # Header
-  --------------------------------------------------------------*/
+# Header
+--------------------------------------------------------------*/
 #header {
-  height: 75px;
-  padding: 8px 20px 10px 0;
+  height: 70px;
+  padding: 2px 0;
   position: fixed;
   left: 0;
   top: 0;
@@ -138,7 +57,7 @@
   #header {
     background: rgba(6, 12, 34, 0.98);
     height: 70px;
-    padding: 2px 0;
+    padding: 1px 0;
     transition: all 0.5s;
   }
 }
@@ -160,7 +79,7 @@
 #header #logo h1 {
   font-size: 36px;
   margin: 0;
-  padding: 2px 0;
+  padding: 6px 0;
   line-height: 1;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -169,20 +88,24 @@
 }
 
 /*#header #logo h1 span {
-        color: #fff;
-      }
-      #header #logo h1 a,
-      #header #logo h1 a:hover {
-        color: #fff;
-      }*/
+  color: #fff;
+}
+
+#header #logo h1 a,
+#header #logo h1 a:hover {
+  color: #fff;
+}*/
 
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 70px;
+  max-height: 63px;
 }
 
-/* ----------------------- NAV MENU ------------------*/
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/* Nav Menu Essentials */
 .nav-menu,
 .nav-menu * {
   margin: 0;
@@ -262,7 +185,55 @@
   font-size: 14px;
   outline: none;
 }
+.statistic-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
 
+  background: #101522; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #101522, #565657);
+  background: linear-gradient(to right, #101522, #565657);
+}
+
+.count-title {
+  font-size: 65px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+.stats-text {
+  font-size: 22px;
+  font-weight: normal;
+  margin-top: 15px;
+  margin-bottom: 0;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.stats-line-black {
+  margin: 12px auto 0;
+  width: 75px;
+  height: 3px;
+  background-color: #fff;
+}
+.stats-icon {
+  font-size: 40px;
+  margin: 0 auto;
+  float: none;
+  display: table;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .counter {
+    margin-bottom: 40px;
+  }
+}
 @media (max-width: 1199px) {
   .nav-menu a {
     padding: 8px 4px;
@@ -295,6 +266,60 @@
 .nav-menu .menu-active > a:before {
   visibility: visible;
   width: 100%;
+}
+
+.nav-menu li.buy-tickets a {
+  color: #fff;
+  background: #ff5e07;
+  padding: 7px 22px;
+  border-radius: 50px;
+  border: 2px solid #ff5e07;
+  transition: all ease-in-out 0.3s;
+  font-weight: 500;
+  margin-left: 8px;
+  margin-top: 2px;
+  line-height: 1;
+  font-size: 13px;
+}
+
+.nav-menu li.buy-tickets a:hover {
+  background: none;
+}
+
+.nav-menu li.buy-tickets:hover a:before,
+.nav-menu li.buy-tickets.menu-active a:before {
+  visibility: hidden;
+}
+
+.nav-menu ul {
+  margin: 4px 0 0 0;
+  padding: 10px;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background: #fff;
+  border-radius: 3px;
+}
+
+.nav-menu ul li {
+  transition: 0.3s;
+}
+
+.nav-menu ul li a {
+  padding: 10px;
+  color: #060c22;
+  transition: 0.3s;
+  display: block;
+  font-size: 13px;
+  text-transform: none;
+  border-radius: 3px;
+}
+
+.nav-menu ul li:hover > a {
+  background: #ff5e07;
+  color: #fff;
+}
+
+.nav-menu ul ul {
+  margin: 0;
 }
 
 /* Mobile Nav Toggle */
@@ -498,6 +523,56 @@ h1 {
     min-height: 189px;
   }
 }
+
+
+
+.nav-tabs {
+  text-align: center;
+  margin: auto;
+  display: block;
+  border-bottom: 0;
+  margin-bottom: 30px;
+}
+
+.nav-tabs li {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.nav-tabs a {
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  background-color: #0e1b4d;
+  color: #fff;
+  padding: 10px 100px;
+}
+
+@media (max-width: 991px) {
+ .nav-tabs a {
+    padding: 8px 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-tabs a {
+    padding: 8px 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-tabs a {
+    padding: 8px 30px;
+  }
+}
+
+.nav-tabs a.active {
+  background-color: #ff5e07;
+  color: #fff;
+}
+
+
+
 /* Block */ 
 .card {
   width: 275px;
