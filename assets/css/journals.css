@@ -42,7 +42,7 @@
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 70px;
+  height: 80px;
   padding: 2px 0;
   position: fixed;
   left: 0;
@@ -56,7 +56,7 @@
 @media (max-width: 991px) {
   #header {
     background: rgba(6, 12, 34, 0.98);
-    height: 70px;
+    height: 80px;
     padding: 1px 0;
     transition: all 0.5s;
   }
@@ -71,7 +71,7 @@
 #header.header-scrolled,
 #header.header-fixed {
   background: rgba(6, 12, 34, 0.98);
-  height: 70px;
+  height: 80px;
   padding: 2px 0;
   transition: all 0.5s;
 }
@@ -524,8 +524,6 @@ h1 {
   }
 }
 
-
-
 .nav-tabs {
   text-align: center;
   margin: auto;
@@ -549,7 +547,7 @@ h1 {
 }
 
 @media (max-width: 991px) {
- .nav-tabs a {
+  .nav-tabs a {
     padding: 8px 60px;
   }
 }
@@ -570,8 +568,6 @@ h1 {
   background-color: #ff5e07;
   color: #fff;
 }
-
-
 
 /* Block */
 .card {
@@ -692,15 +688,18 @@ body {
   margin-left: 15px;
   top: 50%;
 }
-#journal {
+#journal1,
+#journal2 {
   padding: 60px 0;
 }
 
-#journal .container-fluid {
+#journal1 .container-fluid,
+#journal2 .container-fluid {
   margin-bottom: 3px;
 }
 
-#journal .play-btn {
+#journal1 .play-btn,
+#journal2 .play-btn {
   width: 94px;
   height: 94px;
   background: radial-gradient(#ff5e07 50%, rgba(101, 111, 150, 0.15) 52%);
@@ -710,7 +709,8 @@ body {
   overflow: hidden;
 }
 
-#journal .play-btn::after {
+#journal1 .play-btn::after,
+#journal2 .play-btn::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -725,7 +725,8 @@ body {
   transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
-#journal .play-btn:before {
+#journal1 .play-btn:before,
+#journal2 .play-btn:before {
   content: "";
   position: absolute;
   width: 120px;
@@ -748,12 +749,14 @@ body {
   background: rgba(198, 16, 0, 0);
 }
 
-#journal .play-btn:hover::after {
+#journal1 .play-btn:hover::after,
+#journal2 .play-btn:hover::after {
   border-left: 15px solid #ff5e07;
   transform: scale(20);
 }
 
-#journal .play-btn:hover::before {
+#journal1 .play-btn:hover::before,
+#journal2 .play-btn:hover::before {
   content: "";
   position: absolute;
   left: 50%;
@@ -792,7 +795,8 @@ body {
     opacity: 0;
   }
 }
-#journal .journal-btn {
+#journal1 .journal-btn,
+#journal2 .journal-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -809,7 +813,8 @@ body {
   border: 2px solid;
 }
 
-#journal .journal-btn:hover {
+#journal1 .journal-btn:hover,
+#journal2 .journal-btn:hover {
   background: #ff5e07;
   color: #fff;
 }
