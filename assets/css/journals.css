@@ -689,17 +689,20 @@ body {
   top: 50%;
 }
 #journal1,
-#journal2 {
+#journal2, 
+#journal3 {
   padding: 60px 0;
 }
 
 #journal1 .container-fluid,
-#journal2 .container-fluid {
+#journal2 .container-fluid,
+#journal3 .container-fluid {
   margin-bottom: 3px;
 }
 
 #journal1 .play-btn,
-#journal2 .play-btn {
+#journal2 .play-btn,
+#journal3 .play-btn {
   width: 94px;
   height: 94px;
   background: radial-gradient(#ff5e07 50%, rgba(101, 111, 150, 0.15) 52%);
@@ -710,7 +713,8 @@ body {
 }
 
 #journal1 .play-btn::after,
-#journal2 .play-btn::after {
+#journal2 .play-btn::after,
+#journal3 .play-btn::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -726,7 +730,8 @@ body {
 }
 
 #journal1 .play-btn:before,
-#journal2 .play-btn:before {
+#journal2 .play-btn:before,
+#journal3 .play-btn:before {
   content: "";
   position: absolute;
   width: 120px;
@@ -750,13 +755,15 @@ body {
 }
 
 #journal1 .play-btn:hover::after,
-#journal2 .play-btn:hover::after {
+#journal2 .play-btn:hover::after,
+#journal3 .play-btn:hover::after {
   border-left: 15px solid #ff5e07;
   transform: scale(20);
 }
 
 #journal1 .play-btn:hover::before,
-#journal2 .play-btn:hover::before {
+#journal2 .play-btn:hover::before,
+#journal3 .play-btn:hover::before {
   content: "";
   position: absolute;
   left: 50%;
@@ -796,7 +803,8 @@ body {
   }
 }
 #journal1 .journal-btn,
-#journal2 .journal-btn {
+#journal2 .journal-btn,
+#journal3 .journal-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -814,7 +822,8 @@ body {
 }
 
 #journal1 .journal-btn:hover,
-#journal2 .journal-btn:hover {
+#journal2 .journal-btn:hover,
+#journal3 .journal-btn:hover {
   background: #ff5e07;
   color: #fff;
 }
